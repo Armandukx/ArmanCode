@@ -9,8 +9,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-import PIL
-from PIL import Image
 import pytesseract
 import numpy as np
 import keyboard #imports the keyboard
@@ -57,36 +55,36 @@ if Chosen.lower().startswith("1"):
     time.sleep(10)
     element = driver.find_element_by_xpath("/html/body/div[4]/div[2]/form/div/div/div/div/button")
     driver.set_window_position(-10000,0)#1 SHARES
-    print(Colorate.Horizontal(Colors.red_to_purple, f"Sending Shares"))
+    print(Colorate.Horizontal(Colors.red_to_purple, f"Sending Shares..."))
     driver.execute_script("var ele = arguments[0];ele.addEventListener('click', function() {ele.setAttribute('automationTrack','true');});",element)
     element.click()
-    time.sleep(1)
+    time.sleep(4)
     element = driver.find_element_by_xpath("/html/body/div[4]/div[1]/div[3]/div/div[5]/div/button")
     driver.execute_script("var ele = arguments[0];ele.addEventListener('click', function() {ele.setAttribute('automationTrack','true');});",element)
     element.click()
-    time.sleep(1)
+    time.sleep(4)
     element = driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/form/div/input")
     driver.execute_script("var ele = arguments[0];ele.addEventListener('click', function() {ele.setAttribute('automationTrack','true');});",element)
     element.click()
-    time.sleep(1)
+    time.sleep(4)
     s1 = (videourl) #copy's the video url
     pyperclip.copy(s1)
     s2 = pyperclip.paste()
     print(s2) #end of copying and pasting.
     keyboard.press_and_release('ctrl+v')
-    time.sleep(1)
+    time.sleep(4)
     #MADE BY ARMANDUKX
     element = driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/form/div/div/button")
     driver.execute_script("var ele = arguments[0];ele.addEventListener('click', function() {ele.setAttribute('automationTrack','true');});",element)
     element.click()
-    time.sleep(1)
+    time.sleep(4)
     element = driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/div/div[1]/div/form/button")
     driver.execute_script("var ele = arguments[0];ele.addEventListener('click', function() {ele.setAttribute('automationTrack','true');});",element)
     element.click()
-    print(Colorate.Horizontal(Colors.red_to_purple, f"Ignore that ^ its just google stuff"))
-    time.sleep(5)
+    print(Colorate.Horizontal(Colors.red_to_purple, f"Ignore that ^ its just google stuff..."))
+    time.sleep(10)
     driver.quit()
-    print(Colorate.Horizontal(Colors.red_to_purple, f"Sent Shares"))
+    print(Colorate.Horizontal(Colors.red_to_purple, f"Sent Shares..."))
     print(Colorate.Horizontal(Colors.red_to_purple, f"You must wait 5-8 minute's before trying again!"))
     time.sleep(20)
     quit()
@@ -94,39 +92,38 @@ else: driver = webdriver.Chrome('C:\\chromedriver\\chromedriver.exe')
 driver.get("https://zefoy.com/")
 url='https://zefoy.com/'
 time.sleep(10)
-element = driver.find_element_by_xpath("/html/body/div[4]/div[2]/form/div/div/div/div/button") #confirm
-driver.set_window_position(-10000,0)#0 VIEWS
-print(Colorate.Horizontal(Colors.red_to_purple, f"Sending Views"))
+element = driver.find_element_by_xpath("/html/body/div[4]/div[2]/form/div/div/div/div/button")
+driver.set_window_position(-10000,0)#1 SHARES
+print(Colorate.Horizontal(Colors.red_to_purple, f"Sending Views..."))
 driver.execute_script("var ele = arguments[0];ele.addEventListener('click', function() {ele.setAttribute('automationTrack','true');});",element)
 element.click()
-time.sleep(2)
-#MADE BY ARMANDUKX
+time.sleep(4)
 element = driver.find_element_by_xpath("/html/body/div[4]/div[1]/div[3]/div/div[4]/div/button")
 driver.execute_script("var ele = arguments[0];ele.addEventListener('click', function() {ele.setAttribute('automationTrack','true');});",element)
 element.click()
-time.sleep(2)
+time.sleep(4)
 element = driver.find_element_by_xpath("/html/body/div[4]/div[5]/div/form/div/input")
 driver.execute_script("var ele = arguments[0];ele.addEventListener('click', function() {ele.setAttribute('automationTrack','true');});",element)
 element.click()
-time.sleep(2)
+time.sleep(4)
 s1 = (videourl) #copy's the video url
 pyperclip.copy(s1)
 s2 = pyperclip.paste()
 print(s2) #end of copying and pasting.
 keyboard.press_and_release('ctrl+v')
-time.sleep(2)
+time.sleep(4)
+#MADE BY ARMANDUKX
 element = driver.find_element_by_xpath("/html/body/div[4]/div[5]/div/form/div/div/button")
 driver.execute_script("var ele = arguments[0];ele.addEventListener('click', function() {ele.setAttribute('automationTrack','true');});",element)
 element.click()
-time.sleep(2)
-lement = driver.find_element_by_xpath("/html/body/div[4]/div[5]/div/div/div[1]/div/form/button/i")
+time.sleep(4)
+element = driver.find_element_by_xpath("/html/body/div[4]/div[5]/div/div/div[1]/div/form/button")
 driver.execute_script("var ele = arguments[0];ele.addEventListener('click', function() {ele.setAttribute('automationTrack','true');});",element)
 element.click()
-print(Colorate.Horizontal(Colors.red_to_purple, f"Ignore that ^ its just google stuff"))
-time.sleep(5)
+print(Colorate.Horizontal(Colors.red_to_purple, f"Ignore that ^ its just google stuff..."))
+time.sleep(10)
 driver.quit()
 print(Colorate.Horizontal(Colors.red_to_purple, f"Sent Views"))
 print(Colorate.Horizontal(Colors.red_to_purple, f"You must wait 5-8 minute's before trying again!"))
 time.sleep(20)
 quit()
-#MADE BY ARMANDUKX
