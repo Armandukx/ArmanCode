@@ -12,7 +12,7 @@ This is a tiktok view and a share bot combined.
 READ IMPORTANT BEFORE RUNNING THE SOFTWARE
 
 # IMPORTANT
-When the google chrome tab opens up, just enter tha captcha and then wait.
+When the google chrome tab opens up, just enter tha captcha and then wait. (DONT PRESS THE CHECK MARK)
 Wait 5-8 minutes EVERY TIME before using it.
 If you have any problems/questions join my discord.
 
