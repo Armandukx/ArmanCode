@@ -2,12 +2,13 @@
 This is a tiktok view and a share bot combined.
 
 # INSTALLATION
-1. Install the zip (the green zip thingy)
-2. unzip it.
-3. go to https://chromedriver.chromium.org/downloads and install your google chrome driver. (make sure to check your google version)
-4. unzip the "chromedriver.zip"
-5. Create a folder named "chromedriver" in C: (C: is in your explorer where you're whole operating system is)
-6. then move the file "chromedriver.exe" into the chromedriver
+1. Click Code
+2. Then install the zip (the green zip thingy)
+3. unzip it.
+4. go to https://chromedriver.chromium.org/downloads and install your google chrome driver. (make sure to check your google version)
+5. unzip the "chromedriver.zip"
+6. Create a folder named "chromedriver" in C: (C: is in your explorer where you're whole operating system is)
+7. then move the file "chromedriver.exe" into the chromedriver
 READ IMPORTANT BEFORE RUNNING THE SOFTWARE
 
 # IMPORTANT
