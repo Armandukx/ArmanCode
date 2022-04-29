@@ -5,5 +5,5 @@ pip install numpy
 pip install keyboard
 pip install colorama
 pip install pyfiglet
-pip install pyperclip3
+pip install pyperclip
 must have tkinter (its in python installation setup)
