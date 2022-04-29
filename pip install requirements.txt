@@ -1,0 +1,9 @@
+pip install selenium
+pip install pystyle
+pip install pytesseract
+pip install numpy
+pip install keyboard
+pip install colorama
+pip install pyfiglet
+pip install pyperclip3
+must have tkinter (its in python installation setup)
