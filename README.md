@@ -14,7 +14,8 @@ Allows you to viewbot and sharebot in the same app.
 1. When the google chrome tab opens up, just enter tha captcha and then wait. (DONT PRESS THE CHECK MARK)
 2. Wait 5-8 minutes EVERY TIME before using it.
 3. If you have any problems/questions join my discord.
-4. And you're pretty much set.
+4. One of the most important rules is, when you run the file, and then you enter the captcha, google will hide itself but the icon will appear next to the python/cmd/exe file, and that google icon, it MUST be in focus.
+5. And you're pretty much set.
 
 # Made by Armandukx
 if your stealing all of this code, just go kys.
