@@ -1,5 +1,5 @@
 # Tiktok View/Share Bot
-
+Allows you to viewbot and sharebot in the same app.
 # INSTALLATION
 1. Click Code
 2. Then install the zip (the green zip thingy)
