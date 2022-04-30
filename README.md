@@ -28,3 +28,8 @@ if your stealing all of this code, just go kys.
 5. --Rights--
 6. We have all the rights to change/modify our terms & conditions/privacy policy at any time.
 7. If you don't agree with our terms & conditions, you should stop using our services.
+
+# VERSION REQ
+Windows 10+
+Python 8+
+Atleast 8GB of memory
