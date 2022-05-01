@@ -1,24 +1,19 @@
-# Tiktok View/Share Bot
-Allows you to viewbot and sharebot in the same app.
+# Zefoy Tiktok View/Share/Like Bot
+Allows you to viewbot, sharebot and likebot in the same app.
 # INSTALLATION
 1. Click Code
 2. Then install the zip (the green zip thingy)
 3. unzip it.
 4. -- Pip install section--
-5. open the pip install requirements.txt
-6. open cmd, and type in "python"
-7. then ONE BY ONE paste everything in the cmd, what's in the text (ONE BY ONE, NOT EVERYTHING AT THE SAME TIME, do NOT paste tkinter in, you should have that already installed since you can select to install it, when you're in the python setup.)
-8. READ IMPORTANT BEFORE RUNNING THE SOFTWARE
+5. Run the Setup.bat file (double click it)
+6. once finished exit it.
+7. READ IMPORTANT BEFORE RUNNING THE SOFTWARE
 
 # IMPORTANT
-1. When the google chrome tab opens up, just enter tha captcha and then wait. (DONT PRESS THE CHECK MARK)
-2. Wait 5-8 minutes EVERY TIME before using it.
-3. If you have any problems/questions join my discord.
-4. One of the most important rules is, when you run the file, and then you enter the captcha, google will hide itself but the icon will appear next to the python/cmd/exe file, and that google icon, it MUST be in focus.
-5. And you're pretty much set.
-
-# Made by Armandukx
-if your stealing all of this code, just go kys.
+1. Wait 5-8 minutes EVERY TIME before using it.
+2. If you have any problems/questions join my discord https://discord.gg/qrRZvdT73s
+3. One of the most important rules is, when you run the file, the google will hide itself but the icon will appear next to the python/cmd/exe file, and that google icon, it MUST be in focus.
+4. And you're pretty much set.
 
 # LICENSE
 MIT License
